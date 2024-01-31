@@ -1,0 +1,2 @@
+allFromStudenter;SELECT fname, lname, town, hobby FROM studenter;gritacademy;localhost;3306;user;user
+allCoursesForStudent;SELECT s.fname, s.lname, k.namn, k.YHP, k.beskrivning FROM studenter s JOIN narvaro n ON n.studentID=s.id JOIN kurser k ON k.id=n.kursID WHERE s.fname='{0}' AND s.lname='{1}';gritacademy;localhost;3306;user;user
