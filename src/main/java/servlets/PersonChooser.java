@@ -18,7 +18,17 @@ public class PersonChooser extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            showDataTable(req, resp, MySQLConnector.getConnector().selectQuery("allCoursesForStudent", req.getParameter("fname"), req.getParameter("lname")));
+
+        //this part is to check if optional id is given and if its a number
+        if(!req.getParameter("id").isEmpty()){
+            try {
+                showDataTable(req, resp, MySQLConnector.getConnector().selectQuery("allCoursesForStudent", req.getParameter("fname"), req.getParameter("lname"), req.getParameter("id")));
+            }catch (NumberFormatException e){
+            }
+        }else {
+            showDataTable(req, resp, MySQLConnector.getConnector().selectQuery("allCoursesForStudentNoID", req.getParameter("fname"), req.getParameter("lname")));
+        }
+
             showForm(req, resp);
     }
 
@@ -91,6 +101,8 @@ public class PersonChooser extends HttpServlet {
                 + "            <input type=text id=fname name=fname ><br><br>"
                 + "             <label for=fname>First Name:</label>"
                 + "            <input type=text id=lname name=lname><br><br>"
+                 + "             <label for=_id>Student id (optional):</label>"
+                 + "            <input type=text id=_id name=id><br><br>"
                 + "            <input type=submit value=Submit>"
                 + "        </form>"
                 + "</div>"
