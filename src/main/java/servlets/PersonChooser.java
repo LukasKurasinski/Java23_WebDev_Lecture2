@@ -30,6 +30,15 @@ public class PersonChooser extends HttpServlet {
 
     }
 
+    /**
+     * creates a HTMl table from Db data. Data is sent to this method via parameter list
+     * every String array in the data list represents one Db data row
+     * @param req
+     * @param resp
+     * @param data LinkedList<String[]>
+     * @throws ServletException
+     * @throws IOException
+     */
     private void showDataTable(HttpServletRequest req, HttpServletResponse resp,LinkedList<String[]> data) throws ServletException, IOException {
 
 
@@ -62,6 +71,16 @@ public class PersonChooser extends HttpServlet {
 
         out.println(bottom);
     }
+
+    /**
+     * Creates a HTML POST form for input: first name, and last name of a student in the Db
+     * This input data is sent to the /personchooser. from there all of the courser for a given student are shown
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     private void showForm(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
         out.println(
