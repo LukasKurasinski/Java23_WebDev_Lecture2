@@ -1,19 +1,27 @@
 
-`	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-t
-java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(›ÒÑÿÿÿÿÿ
-‡
-java:S1319""qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(şÄê×
-b
-java:S2095@"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñéşÿÿÿÿ
-c
-java:S2095?"HUse try-with-resources or close this "Connection" in a "finally" clause.(´„Õİüÿÿÿÿ
-<
-java:S1170"!Make this final field static too.(ß±Öüÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ß±Öüÿÿÿÿ
-2
-java:S1116"Remove this empty statement.(‘Šƒõ
-A
-java:S11683"+Return an empty collection instead of null.(¥¹ï
-E	java:S106V"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ä”£²Ö1
+g	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å”£²Ö1
+{
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(›ÒÑÿÿÿÿÿ8Å”£²Ö1
+
+java:S1319""qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(şÄê×8Æ”£²Ö1
+q
+java:S2095}"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(§ÖûÌÿÿÿÿÿ8ˆ–£²Ö1
+j
+java:S2095{"HUse try-with-resources or close this "Connection" in a "finally" clause.(´„Õİüÿÿÿÿ8ˆ–£²Ö1
+j
+java:S2095A"HUse try-with-resources or close this "Connection" in a "finally" clause.(´„Õİüÿÿÿÿ8ˆ–£²Ö1
+i
+java:S2095B"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñéşÿÿÿÿ8ˆ–£²Ö1
+C
+java:S1170"!Make this final field static too.(ß±Öüÿÿÿÿ8ˆ–£²Ö1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ß±Öüÿÿÿÿ8Š–£²Ö1
+9
+java:S1116"Remove this empty statement.(‘Šƒõ8‹–£²Ö1
+H
+java:S11683"+Return an empty collection instead of null.(¥¹ï8–£²Ö1
+L	java:S106X"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8‘–£²Ö1
+M	java:S106€"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8•–£²Ö1
+Y	java:S125"<This block of commented-out lines of code should be removed.(ÈÌş³8•–£²Ö1
+M	java:S106"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8°«²Ö1

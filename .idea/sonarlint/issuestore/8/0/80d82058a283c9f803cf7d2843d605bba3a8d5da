@@ -1,26 +1,28 @@
 
+h
+java:S1192"FDefine a constant instead of duplicating this literal "lname" 4 times.(î«òÂýÿÿÿÿ8Ï¯¢³Ö1
+h
+java:S1192"FDefine a constant instead of duplicating this literal "fname" 4 times.(î«òÂýÿÿÿÿ8Ï¯¢³Ö1
 ‰
-java:S1989"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(î«òÂýÿÿÿÿ8ðóÒ¤Ö1
+java:S1989"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(î«òÂýÿÿÿÿ8Ø¯¢³Ö1
 }
-java:S1989"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(î«òÂýÿÿÿÿ8ñóÒ¤Ö1
-J	java:S108")Either remove or fill this block of code.(é–³öûÿÿÿÿ8òóÒ¤Ö1
+java:S1989"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(î«òÂýÿÿÿÿ8Ù¯¢³Ö1
+J	java:S108")Either remove or fill this block of code.(é–³öûÿÿÿÿ8Ù¯¢³Ö1
 ‰
-java:S1989"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(›è»´üÿÿÿÿ8òóÒ¤Ö1
+java:S1989"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(›è»´üÿÿÿÿ8Ù¯¢³Ö1
 }
-java:S1989"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(›è»´üÿÿÿÿ8óóÒ¤Ö1
+java:S1989"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(›è»´üÿÿÿÿ8Ù¯¢³Ö1
 „
-java:S1989 "bHandle the following exceptions that could be thrown by "showForm": ServletException, IOException.(˜é¢®þÿÿÿÿ8óóÒ¤Ö1
+java:S1989 "bHandle the following exceptions that could be thrown by "showForm": ServletException, IOException.(˜é¢®þÿÿÿÿ8Ù¯¢³Ö1
 ‰
-java:S1989%"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(¦Ç…Éýÿÿÿÿ8ôóÒ¤Ö1
+java:S1989%"gHandle the following exceptions that could be thrown by "showDataTable": ServletException, IOException.(¦Ç…Éýÿÿÿÿ8Ú¯¢³Ö1
 }
-java:S1989%"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(¦Ç…Éýÿÿÿÿ8ôóÒ¤Ö1
+java:S1989%"[Handle the following exception that could be thrown by "selectQuery": NullPointerException.(¦Ç…Éýÿÿÿÿ8Ú¯¢³Ö1
 „
-java:S1989&"bHandle the following exceptions that could be thrown by "showForm": ServletException, IOException.(˜é¢®þÿÿÿÿ8õóÒ¤Ö1
+java:S1989&"bHandle the following exceptions that could be thrown by "showForm": ServletException, IOException.(˜é¢®þÿÿÿÿ8Û¯¢³Ö1
 ”
-java:S11304"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(ßÜî‘8÷óÒ¤Ö1
+java:S11304"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(ßÜî‘8Û¯¢³Ö1
 I
-java:S1602L",Remove useless curly braces around statement(ÆÚ÷Ä8ùóÒ¤Ö1
+java:S1602Y",Remove useless curly braces around statement(ÆÚ÷Ä8Ý¯¢³Ö1
 ™
-java:S1130^"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(Íþ•Ñþÿÿÿÿ8úóÒ¤Ö1
-L
-java:S1172^"*Remove this unused method parameter "req".(Íþ•Ñþÿÿÿÿ8ûóÒ¤Ö1
+java:S1130k"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(Íþ•Ñþÿÿÿÿ8Þ¯¢³Ö1

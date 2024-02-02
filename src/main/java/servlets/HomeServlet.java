@@ -19,6 +19,7 @@ public class HomeServlet extends HttpServlet {
                 +   "<a href=/>HOME</a>"
                 +   "<a href=/personchooser>Show Person Classes</a>"
                 +   "<a href=/home>Servlet Redirect</a>"
+                +   "<a href=/updatestudents>Update Students</a>"
                 + "</nav>"
                 + "<h2>Hello from Java Servlet!</h2>";
 
@@ -40,6 +41,7 @@ public class HomeServlet extends HttpServlet {
                 +   "<a href=/>HOME</a>"
                 +   "<a href=/personchooser>Show Person Classes</a>"
                 +   "<a href=/home>Servlet Redirect</a>"
+                +   "<a href=/updatestudents>Update Students</a>"
                 + "</nav>"
                 + "<h2>Hello from Java Servlet!</h2>";
 
