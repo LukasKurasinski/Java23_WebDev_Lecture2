@@ -12,6 +12,11 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+/**
+ * This Servlet shows the students table and a form.
+ * After putting new student information in the form,
+ * The student is added to the database
+ */
 @WebServlet(name="UpdateStudents", urlPatterns = "/updatestudents")
 public class UpdateStudents extends HttpServlet {
 
